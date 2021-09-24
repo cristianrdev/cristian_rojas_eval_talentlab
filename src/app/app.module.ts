@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './compartida/header/header.component';
 import { AsideComponent } from './compartida/aside/aside.component';
@@ -9,6 +9,8 @@ import { CarruselComponent } from './compartida/carrusel/carrusel.component';
 import { ProductosComponent } from './compartida/productos/productos.component';
 import { LoginComponent } from './compartida/login/login.component';
 import { RegisterComponent } from './compartida/register/register.component';
+import { HomeComponent } from './pages/home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -19,10 +21,12 @@ import { RegisterComponent } from './compartida/register/register.component';
     CarruselComponent,
     ProductosComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    HomeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
