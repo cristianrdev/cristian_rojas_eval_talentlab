@@ -9,7 +9,6 @@ import { NotfoundComponent } from './notfound/notfound.component';
 //referencias a los componentes
 const app_routes: Routes = [
     {path: '', component: HomeComponent},
-    {path: 'footer', component: FooterComponent},
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
     {path: '**', component: NotfoundComponent},
