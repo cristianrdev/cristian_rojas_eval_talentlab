@@ -7,6 +7,8 @@ import { AsideComponent } from './compartida/aside/aside.component';
 import { FooterComponent } from './compartida/footer/footer.component';
 import { CarruselComponent } from './compartida/carrusel/carrusel.component';
 import { ProductosComponent } from './compartida/productos/productos.component';
+import { LoginComponent } from './compartida/login/login.component';
+import { RegisterComponent } from './compartida/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ProductosComponent } from './compartida/productos/productos.component';
     AsideComponent,
     FooterComponent,
     CarruselComponent,
-    ProductosComponent
+    ProductosComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule
