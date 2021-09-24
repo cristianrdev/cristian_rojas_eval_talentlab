@@ -10,6 +10,7 @@ import { ProductosComponent } from './compartida/productos/productos.component';
 import { LoginComponent } from './compartida/login/login.component';
 import { RegisterComponent } from './compartida/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     ProductosComponent,
     LoginComponent,
     RegisterComponent,
-    HomeComponent
+    HomeComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,

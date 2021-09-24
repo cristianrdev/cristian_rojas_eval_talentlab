@@ -5,12 +5,15 @@ import { ProductosComponent } from './compartida/productos/productos.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './pages/home/home.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 //referencias a los componentes
 const app_routes: Routes = [
     {path: '', component: HomeComponent},
     {path: 'footer', component: FooterComponent},
     {path: 'login', component: LoginComponent},
     {path: 'register', component: RegisterComponent},
+    {path: '**', component: NotfoundComponent},
+    
 
     // {path: '/nombre_ruta', component: El componente},
     
