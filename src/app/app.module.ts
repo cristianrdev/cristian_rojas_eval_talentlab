@@ -16,8 +16,6 @@ import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,13 +29,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     HomeComponent,
     NotfoundComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

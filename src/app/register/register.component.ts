@@ -27,6 +27,7 @@ export class RegisterComponent implements OnInit {
       console.log('El Nombre debe tener mínimo 4 caracteres');
       alert('El Nombre debe tener mínimo 4 caracteres');
       this.errorRegister = true;
+      return;
     }
 
     if (this.apellido.length < 3 || this.apellido == null) {
