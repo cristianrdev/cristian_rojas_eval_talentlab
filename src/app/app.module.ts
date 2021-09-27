@@ -11,8 +11,8 @@ import { AsideComponent } from './compartida/aside/aside.component';
 import { FooterComponent } from './compartida/footer/footer.component';
 import { CarruselComponent } from './compartida/carrusel/carrusel.component';
 import { ProductosComponent } from './compartida/productos/productos.component';
-import { LoginComponent } from './compartida/login/login.component';
-import { RegisterComponent } from './compartida/register/register.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
