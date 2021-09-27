@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+//Rutas
 import { AppRoutingModule } from './app-routing.module';
+//Componentes
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './compartida/header/header.component';
 import { AsideComponent } from './compartida/aside/aside.component';
@@ -11,6 +15,7 @@ import { LoginComponent } from './compartida/login/login.component';
 import { RegisterComponent } from './compartida/register/register.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+
 
 
 @NgModule({
@@ -24,11 +29,13 @@ import { NotfoundComponent } from './notfound/notfound.component';
     LoginComponent,
     RegisterComponent,
     HomeComponent,
-    NotfoundComponent
+    NotfoundComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
